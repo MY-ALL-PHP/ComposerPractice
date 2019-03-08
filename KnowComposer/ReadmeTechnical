@@ -1,0 +1,44 @@
+
+_____
+Composer ::
+
+Composer deals with php library (o/r package), it manages the library on project basis by default, [but can be installed on a global scope with --global option]
+
+when you have specified a namespace name as below :
+
+namespace \vendorname\packagename;
+
+& when you will creates a instance of a class it will tries to find in that namespace folder.
+
+
+if you will include/require the "autoload.php" file then you will be able to autolod the classes, but make sure that you have generated the manifest file, that is generated automatically when the packages are installed.
+o/r when you are dumping the autoload file.
+
+
+
+so that time when you areautoloading the file make sure that, class name is preceded by the \ back slash.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+..
